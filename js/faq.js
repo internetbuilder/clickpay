@@ -90,12 +90,15 @@ $(document).ready(function () {
     language = language === "arabic" ? "english" : "arabic";
     if (language === "arabic") {
       header.style.direction = "ltr";
-   
+
+
 
 
       
     } else {
       header.style.direction = "rtl";
+      document.getElementById("privacytitle").style.textAlign = "left";
+      document.getElementById("privacycontent").style.textAlign = "left";
    
 
 

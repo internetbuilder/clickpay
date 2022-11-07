@@ -78,7 +78,8 @@ window.onscroll = () => {
 // steps
 
 const stepList = document.getElementById("step-list");
-stepList.scrollTo(1000, stepList.scrollTop);
+      stepList.scrollTo(1000, stepList.scrollTop);
+
 const leftbtnmover = document.getElementById("btn-left");
 const rightbtnmover = document.getElementById("btn-right");
 const scrollNext = () => {
