@@ -104,12 +104,12 @@ $(document).ready(function () {
       header.style.direction = "ltr";
       document.getElementById("aboutus_word").style.textAlign = "right";
       document.getElementById("aboutus-prg").style.textAlign = "right";
-
       
     } else {
       header.style.direction = "rtl";
       document.getElementById("aboutus_word").style.textAlign = "left";
       document.getElementById("aboutus-prg").style.textAlign = "left";
+      document.getElementById("aboutus-prg").style.direction = "ltr";
 
 
     }

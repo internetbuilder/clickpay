@@ -97,7 +97,9 @@ $(document).ready(function () {
       
     } else {
       header.style.direction = "rtl";
-   
+      document.getElementById("privacytitle").style.textAlign = "left";
+      document.getElementById("privacycontent").style.textAlign = "left";
+
 
 
     }

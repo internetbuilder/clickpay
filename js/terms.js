@@ -94,11 +94,13 @@ $(document).ready(function () {
       
     } else {
       header.style.direction = "rtl";
-      
    
 
 
     }
+
+
+    
     $.getJSON("languages/" + language + ".json", function (dictionary) {
       $.each(dictionary, function (id, text) {
         $("#" + id).html(text);
