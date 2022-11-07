@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Tajawal", "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0px;
+}
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+.gold-button {
+  text-align: center;
+  background-color: #c4975f;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  transition: 0.5s background-color ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.gold-button:hover {
+  background-color: #273f3b;
+}
+.anti-gold-button {
+  text-align: center;
+  background-color: #273f3b;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  transition: 0.5s background-color ease;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.anti-gold-button:hover {
+  background-color: #c4975f;
+}
+.green-button {
+  background-color: #273f3b;
+  color: #ffffff;
+}
+@media (max-width: 1168px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 468px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 268px) {
+  html {
+    font-size: 12px;
+  }
+}
