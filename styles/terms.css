@@ -190,3 +190,24 @@ h2#faq-title {
 }
 
 
+
+.content-title {
+color: #c4975f;
+text-align: center;
+}
+
+div#privacytitle {
+  color: #c4975f;
+  text-align: center;
+  }
+  
+
+
+div#termscontent {
+  font-size: 20px;
+}
+
+div#privacycontent {
+  font-size: 20px;
+}
+

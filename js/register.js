@@ -13,6 +13,7 @@ const header = document.querySelector("header");
 
 
 
+
 // header
 
 const navigation = document.getElementById("navigation");
@@ -80,6 +81,7 @@ const scrollPrevious = () => {
 };
 
 
+
 // payments
 
 $(document).ready(function () {
@@ -89,26 +91,49 @@ $(document).ready(function () {
     language = language === "arabic" ? "english" : "arabic";
     if (language === "arabic") {
       header.style.direction = "ltr";
-      document.getElementById("termstitle").style.textAlign = "right";
-      document.getElementById("termscontent").style.textAlign = "right";
-      document.getElementById("termscontent").style.direction = "rtl";
 
+      $('#name').attr('placeholder',
+      'الاسم');
+
+      $('#companyname').attr('placeholder',
+      'اسم الشركة');
+
+      $('#phonenumber').attr('placeholder',
+      'رقم الجوال');
+
+      $('#emailaddress').attr('placeholder',
+      'البريد الالكتروني');
+
+      
+      $('#login').attr('value',
+      'تسجيل دخول');
+
+      document.getElementById("registerform").style.direction = "rtl";
 
       
     } else {
       header.style.direction = "rtl";
-      document.getElementById("termstitle").style.textAlign = "left";
-      document.getElementById("termscontent").style.textAlign = "left";
-      document.getElementById("termscontent").style.direction = "ltr";
+   
+      $('#name').attr('placeholder',
+      'Name');
 
+      $('#companyname').attr('placeholder',
+      'Company Name');
 
+      $('#phonenumber').attr('placeholder',
+      'Phone Number');
+
+      $('#emailaddress').attr('placeholder',
+      'E-mail Address');
+      
+      $('#login').attr('value',
+      'Login');
+
+      document.getElementById("registerform").style.direction = "ltr";
 
 
 
     }
-
-
-    
     $.getJSON("languages/" + language + ".json", function (dictionary) {
       $.each(dictionary, function (id, text) {
         $("#" + id).html(text);

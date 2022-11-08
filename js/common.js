@@ -174,6 +174,8 @@ $(document).ready(function () {
       specialTitle.style.textAlign = "right";
       stepList.scrollTo(1000, stepList.scrollTop);
       steplist.style.direction = "ltr";
+      document.getElementById("gateway_4").style.direction = "rtl";
+
 
     } else {
       header.style.direction = "rtl";
@@ -190,6 +192,8 @@ $(document).ready(function () {
       steplist.style.direction = "rtl";
       stepline.style.right = "130px";
       stepList.scrollTo(-1000, stepList.scrollTop);
+      document.getElementById("gateway_4").style.direction = "ltr";
+
 
     }
     $.getJSON("languages/" + language + ".json", function (dictionary) {

@@ -5,7 +5,7 @@
 }
 .payment-list {
   margin: auto;
-  width: min(800px, 90%);
+  width: min(800px, 80%);
 }
 .payments h1 {
   font-weight: 500;

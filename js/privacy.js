@@ -90,7 +90,9 @@ $(document).ready(function () {
     language = language === "arabic" ? "english" : "arabic";
     if (language === "arabic") {
       header.style.direction = "ltr";
-
+      document.getElementById("privacytitle").style.textAlign = "right";
+      document.getElementById("privacycontent").style.textAlign = "right";
+      document.getElementById("privacycontent").style.direction = "rtl";
 
 
 
@@ -99,6 +101,7 @@ $(document).ready(function () {
       header.style.direction = "rtl";
       document.getElementById("privacytitle").style.textAlign = "left";
       document.getElementById("privacycontent").style.textAlign = "left";
+      document.getElementById("privacycontent").style.direction = "ltr";
 
 
 
