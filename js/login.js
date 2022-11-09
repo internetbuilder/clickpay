@@ -66,6 +66,38 @@ window.onscroll = () => {
 };
 
 
+
+
+
+
+
+function _render(){
+  var _hash = window.location.hash;
+  // en
+  if(_hash == "#en"){
+
+
+
+
+    document.getElementById("loginform").style.direction = "ltr";
+
+  
+    $.getJSON("languages/english.json", function (dictionary) {
+      $.each(dictionary, function (id, text) {
+        $("#" + id).html(text);
+      });
+    });
+
+
+
+  }}
+
+        // init
+        _render();
+
+
+
+
 // steps
 
 const stepList = document.getElementById("step-list");

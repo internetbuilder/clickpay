@@ -1,6 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
   <head>
+
+
+
+
+
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Titillium Web;
+        font-size: 16px;
+      }
+
+      p {
+
+        padding-bottom: 20px;
+      }
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: #b5803a;;
+        background-color: var(--dl-color-scheme-yellow20);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <script type="text/javascript"> ... </script> -->
+    <link rel="stylesheet" href="./about/style.css" />
+
+
+
+
+
+
+
+
+
+
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,31 +99,112 @@
     <header class='header'>
       <a class='gold-button' href='login.html' id="navBtn_sign_in">تسجيل الدخول</a>
       <nav class='navigation navigation-hide' id='navigation'>
-          <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
-          <div class='navigation-item'><a href="index.html#section-6" id="navItem_6" aria-current="page">حلول الدفع</a></div>
-          <div class='navigation-item'><a href="index.html#section-5" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
-          <div class='navigation-item'><a href="index.html#section-4" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
-          <div class='navigation-item'><a href="index.html#section-3" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
-          <div class='navigation-item'><a href="index.html#section-2" id="navItem_2" aria-current="page">روابط الدفع</a></div>
-          <div class='navigation-item'><a href="index.html#section-1" id="navItem_1" aria-current="page">خدماتنا</a></div>
-      </nav>
+        <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_6" aria-current="page">حلول الدفع</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_2" aria-current="page">روابط الدفع</a></div>
+        <div class='navigation-item'><a href="javascript:;" id="navItem_1" aria-current="page">خدماتنا</a></div>
+    </nav>
       <img src='images/menu.png' class='dropdown' alt='Dropdown' id='dropdown' onclick='toggleNavbar()'/>
       <a href="index.html" class="logo-link"><img class='logo' src='images/clickpay.svg' alt='Logo'/></a>
   </header>
-    <div class="container">
-      <div class="content-container">
-        <div class="content" data-aos='fade-up' data-aos-duration='1500' data-aos-delay='400'>
-          <h2 class="content-title" id="aboutus_word">من نحن</h2>
-          <div class="content-main" id="aboutus-prg">
-            خدمة دفع تقنية تابعة لمصرف الإنماء. نعمل على تخزين وحماية بيانات المعاملات محلياً.
-                        <br>
-            نوفر العديد من الحلول والخدمات المالية للأفراد والمؤسسات لتحكم في أعمالهم بسهولة وآمان.
-                      </div>
-       
+  
 
-      
+
+
+
+  <div>
+    <link href="./about/home.css" rel="stylesheet" />
+
+    <div class="home-container">
+      <div class="section-container">
+        <div class="home-max-width max-width">
+          <h1 class="home-text1">
+            <span id="aboutus_word">About us
+            </span>
+          </h1>
+          <div class="home-cards-container"></div>
+        </div>
+      </div>
+      <div class="section-section section-container">
+        <div class="section-max-width max-width">
+          <div class="section-banner">
+            <span class="section-text before-Heading">
+              <span id="aboutus-prg1">Push your finances to the next level</span>
+            </span>
+            <h1 class="section-text01">
+              <br />
+              <span></span>
+              <span></span>
+              <p id="aboutus-prg">ClickPay is a truly world class payment gateway under Alinma bank which supports all the payment methods in the market to enable merchants to accept payments through checkout page, mobile application and via sharing links across all the communications platforms.
+                ClickPay provide many solutions that enable clients to have complete control of their business via an interactive and creative dashboard
+              </p>
+            </h1>
+            <div class="section-btns">
+              <button class="section-button button button-transparent">
+                <span>Sign Up</span>
+              </button>
+              <button class="section-button1 button button-gradient">
+                <span>Contact Us</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+  <script>
+    window.onload = () => {
+      const runAllScripts = () => {
+        initializeAllAccordions()
+      }
+
+      const listenForUrlChanges = () => {
+        let url = location.href
+        document.body.addEventListener(
+          'click',
+          () => {
+            requestAnimationFrame(() => {
+              if (url !== location.href) {
+                runAllScripts()
+                url = location.href
+              }
+            })
+          },
+          true
+        )
+      }
+
+      const initializeAllAccordions = () => {
+        const allAccordions = document.querySelectorAll('[data-role="Accordion"]');
+
+        allAccordions.forEach((accordion) => {
+          const accordionHeader = accordion.querySelector('[data-type="accordion-header"]')
+          const accordionContent = accordion.querySelector('[data-type="accordion-content"]')
+
+          accordionHeader.addEventListener('click', () => {
+            if (accordionContent.style.maxHeight) {
+              accordionContent.style.maxHeight = ''
+            } else {
+              accordionContent.style.maxHeight = `${accordionContent.scrollHeight}px`
+            }
+          })
+        })
+      }
+
+      listenForUrlChanges()
+      runAllScripts()
+    }
+  </script>
+
+
+
+
+
+
+
     <footer class='footer'>
       <div class='footer-overlay'></div>
       <img class='footer-logo' src='images/logo-alternate.png' alt='Logo'/>
@@ -117,7 +257,6 @@
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" src="js/common2.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
