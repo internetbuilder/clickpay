@@ -1,8 +1,8 @@
 .section {
   position: relative !important;
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  margin-top: -140px !important;
+  padding-top: 150px !important;
+  /* padding-bottom: 50px !important; */
+  margin-top: -150px !important;
 }
 #section-1 {
   z-index: 100;
@@ -15,18 +15,21 @@
 }
 #section-3 {
   z-index: 80;
-  margin-top: -60px !important;
+  margin-top: -170px !important;
   padding-bottom: 80px !important;
 
 }
 #section-4 {
+  margin-top: -170px !important;
   z-index: 70;
 }
 #section-5 {
+  margin-top: -170px !important;
   z-index: 60;
 }
 #section-6 {
   z-index: 50;
+  margin-top: -170px !important;
 }
 .first-section {
   background-color: #fff;

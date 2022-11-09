@@ -1,27 +1,6 @@
 // let language = window.navigator.language;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // bind hashchange event
     window.addEventListener('hashchange', _render);
 
@@ -55,6 +34,14 @@
 
 
 
+          }
+
+          else {
+
+            $("#navItem_1, #navItem_2, #navItem_3, #navItem_4, #navItem_4, #navItem_5, #navItem_6").click(function () {
+              location.assign("index.html#ar");
+            });
+            
           }
 
          
@@ -170,13 +157,17 @@ $(document).ready(function () {
     if (language === "arabic") {
       window.location.hash='ar';
 
+      
+      
       $('#heroBtn_start, #navBtn_sign_in, .logo-link, #footer_1, #footer_2, #footer_3, #footer_4, #footer_5, #dalel, #privacy, #heroBtn_start_1, #registerquestion, .anti-gold-button').each(function(){ 
         if( !this.hash ) this.hash = "#ar";
+
     });
       
-  } else {
+   } else if (language === "english") {
 
       window.location.hash='en';
+
 
   /*
       $('#navItem_1, #navItem_2, #navItem_3, #navItem_4, #navItem_5, ').each(function(){ 
@@ -208,3 +199,19 @@ $(document).ready(function () {
 
 
 });
+
+/*
+$(document).ready(function () {
+ 
+$("#navBtn_translate").click(function () {
+
+  language = language === "english";
+  if (language === "english") {
+
+    window.location.reload(true);
+    
+} 
+
+});
+});
+*/

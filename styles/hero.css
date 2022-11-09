@@ -45,9 +45,12 @@
   color: #273f3b;
   font-size: 2.8125rem;
 }
-.main-text span {
+span#heroAdver_2 {
   background-color: #273f3b;
   color: #ffffff;
+  padding: 3.5px;
+  font-weight: bold;
+  font-size: 2.8125rem;
 }
 .description {
   font-size: 1.125rem;
