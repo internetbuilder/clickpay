@@ -10,6 +10,11 @@
   width: 100%;
   z-index: 1000;
 }
+
+input {
+  padding: 10px;
+}
+
 .logo {
   width: 71px;
   height: 54px;
