@@ -24,18 +24,7 @@ form input {
   height: 40px;
   width: 100%;
   border: none;
-  
 }
-
-input#emailaddress {
-  padding: 20px;
-}
-
-input#password {
-  padding: 20px;
-}
-
-
 form input.green-button {
   border-radius: 10px;
 }

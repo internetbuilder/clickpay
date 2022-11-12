@@ -10,6 +10,7 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
+const footer = document.querySelector(".footer-links");
 
 
 
@@ -90,6 +91,7 @@ $(document).ready(function () {
     language = language === "arabic" ? "english" : "arabic";
     if (language === "arabic") {
       header.style.direction = "ltr";
+      footer.style.direction = "rtl";
 
 
 
@@ -97,7 +99,8 @@ $(document).ready(function () {
       
     } else {
       header.style.direction = "rtl";
-   
+      footer.style.direction = "ltr";
+
 
 
     }

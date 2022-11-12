@@ -32,7 +32,6 @@ form input {
   height: 40px;
   width: 100%;
   border: none;
-  padding: 20px;
 }
 form input.anti-gold-button {
   border-radius: 10px;

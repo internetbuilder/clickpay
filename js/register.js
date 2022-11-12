@@ -10,6 +10,8 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
+const registerform = document.querySelector(".register-form");
+const footer = document.querySelector(".footer-links");
 
 
 
@@ -64,34 +66,6 @@ window.onscroll = () => {
     }
   });
 };
-
-
-
-
-
-function _render(){
-  var _hash = window.location.hash;
-  // en
-  if(_hash == "#en"){
-
-
-
-
-    document.getElementById("registerform").style.direction = "ltr";
-
-  
-    $.getJSON("languages/english.json", function (dictionary) {
-      $.each(dictionary, function (id, text) {
-        $("#" + id).html(text);
-      });
-    });
-
-
-
-  }}
-
-        // init
-        _render();
   
 
 
@@ -139,7 +113,9 @@ $(document).ready(function () {
       $('#login').attr('value',
       'تسجيل دخول');
 
-      document.getElementById("registerform").style.direction = "rtl";
+      registerform.style.direction = "rtl";
+      footer.style.direction = "rtl";
+
 
       
     } else {
@@ -160,7 +136,9 @@ $(document).ready(function () {
       $('#login').attr('value',
       'Login');
 
-      document.getElementById("registerform").style.direction = "ltr";
+      registerform.style.direction = "ltr";
+      footer.style.direction = "ltr";
+
 
 
 

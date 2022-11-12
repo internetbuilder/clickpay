@@ -10,6 +10,7 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
+const footer = document.querySelector(".footer-links");
 
 
 
@@ -92,6 +93,7 @@ $(document).ready(function () {
       document.getElementById("termstitle").style.textAlign = "right";
       document.getElementById("termscontent").style.textAlign = "right";
       document.getElementById("termscontent").style.direction = "rtl";
+      footer.style.direction = "rtl";
 
 
       
@@ -100,6 +102,7 @@ $(document).ready(function () {
       document.getElementById("termstitle").style.textAlign = "left";
       document.getElementById("termscontent").style.textAlign = "left";
       document.getElementById("termscontent").style.direction = "ltr";
+      footer.style.direction = "ltr";
 
 
 

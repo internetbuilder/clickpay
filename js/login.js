@@ -10,8 +10,8 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
-
-
+const loginform = document.querySelector(".login-form");
+const footer = document.querySelector(".footer-links");
 
 
 // header
@@ -67,37 +67,6 @@ window.onscroll = () => {
 
 
 
-
-
-
-
-function _render(){
-  var _hash = window.location.hash;
-  // en
-  if(_hash == "#en"){
-
-
-
-
-    document.getElementById("loginform").style.direction = "ltr";
-
-  
-    $.getJSON("languages/english.json", function (dictionary) {
-      $.each(dictionary, function (id, text) {
-        $("#" + id).html(text);
-      });
-    });
-
-
-
-  }}
-
-        // init
-        _render();
-
-
-
-
 // steps
 
 const stepList = document.getElementById("step-list");
@@ -135,7 +104,8 @@ $(document).ready(function () {
       $('#login').attr('value',
       'تسجيل دخول');
 
-      document.getElementById("loginform").style.direction = "rtl";
+      loginform.style.direction = "rtl";
+      footer.style.direction = "rtl";
 
       
     } else {
@@ -150,8 +120,8 @@ $(document).ready(function () {
       $('#password').attr('value',
       'Password');
 
-
-      document.getElementById("loginform").style.direction = "ltr";
+      loginform.style.direction = "ltr";
+      footer.style.direction = "ltr";
 
 
 

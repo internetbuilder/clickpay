@@ -10,7 +10,19 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
-const registerform = document.querySelector(".register-form");
+const hero = document.querySelector(".hero");
+const herotext = document.querySelector(".hero-text");
+const heroimg = document.querySelector(".hero-image");
+const firstSection = document.querySelector(".first-section");
+const servicesText = document.querySelector(".services-text");
+const processSection = document.querySelector("#section-3");
+const processList = document.querySelector(".process-list");
+const featuresSection = document.querySelector("#section-5");
+const specialTitle = document.querySelector("#special_title");
+const steplist = document.querySelector("#stp-list");
+const stepline = document.querySelector(".stepline");
+const aboutus_word = document.querySelector("aboutus_word");
+const aboutusprg = document.querySelector("aboutus-prg");
 const footer = document.querySelector(".footer-links");
 
 
@@ -68,7 +80,6 @@ window.onscroll = () => {
 };
 
 
-
 // steps
 
 const stepList = document.getElementById("step-list");
@@ -93,15 +104,16 @@ $(document).ready(function () {
     language = language === "arabic" ? "english" : "arabic";
     if (language === "arabic") {
       header.style.direction = "ltr";
-      registerform.style.direction = "rtl";
+      document.getElementById("aboutus_word").style.textAlign = "right";
+      document.getElementById("aboutus-prg").style.textAlign = "right";
       footer.style.direction = "rtl";
 
-      
     } else {
       header.style.direction = "rtl";
-      registerform.style.direction = "ltr";
+      document.getElementById("aboutus_word").style.textAlign = "left";
+      document.getElementById("aboutus-prg").style.textAlign = "left";
+      document.getElementById("aboutus-prg").style.direction = "ltr";
       footer.style.direction = "ltr";
-
 
 
     }

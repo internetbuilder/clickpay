@@ -5,6 +5,15 @@
   gap: 1.5rem;
   background: #f6f6f6;
 }
+
+.heroAdver_2 {
+  background-color: #273f3b;
+  color: #ffffff;
+  padding: 3.5px;
+  font-weight: bold;
+  font-size: 2.8125rem;
+}
+
 .hero-image {
   width: 42.5vw;
   transition: 0.5s transform;
@@ -37,7 +46,7 @@
 }
 .hero .gold-button {
   text-align: center;
-  width: 6.875rem;
+  width: 9rem;
   height: 3.125rem;
 }
 .main-text {
@@ -45,12 +54,9 @@
   color: #273f3b;
   font-size: 2.8125rem;
 }
-span#heroAdver_2 {
+.main-text span {
   background-color: #273f3b;
   color: #ffffff;
-  padding: 3.5px;
-  font-weight: bold;
-  font-size: 2.8125rem;
 }
 .description {
   font-size: 1.125rem;

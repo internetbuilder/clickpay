@@ -10,7 +10,7 @@ window.addEventListener("resize", () => {
 });
 
 const header = document.querySelector("header");
-
+const footer = document.querySelector(".footer-links");
 
 
 
@@ -93,6 +93,7 @@ $(document).ready(function () {
       document.getElementById("privacytitle").style.textAlign = "right";
       document.getElementById("privacycontent").style.textAlign = "right";
       document.getElementById("privacycontent").style.direction = "rtl";
+      footer.style.direction = "rtl";
 
 
 
@@ -102,7 +103,7 @@ $(document).ready(function () {
       document.getElementById("privacytitle").style.textAlign = "left";
       document.getElementById("privacycontent").style.textAlign = "left";
       document.getElementById("privacycontent").style.direction = "ltr";
-
+      footer.style.direction = "ltr";
 
 
     }

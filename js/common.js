@@ -21,6 +21,7 @@ const featuresSection = document.querySelector("#section-5");
 const specialTitle = document.querySelector("#special_title");
 const steplist = document.querySelector("#step-list");
 const stepline = document.querySelector(".stepline");
+const footer = document.querySelector(".footer-links");
 
 
 // header
@@ -89,9 +90,6 @@ const scrollNext = () => {
 const scrollPrevious = () => {
   stepList.scrollTo(stepList.scrollLeft - 300, stepList.scrollTop);
 };
-
-
-
 
 // processes
 
@@ -178,6 +176,7 @@ $(document).ready(function () {
       stepList.scrollTo(1000, stepList.scrollTop);
       steplist.style.direction = "ltr";
       document.getElementById("gateway_4").style.direction = "rtl";
+      footer.style.direction = "rtl";
 
 
     } else {
@@ -196,6 +195,7 @@ $(document).ready(function () {
       stepline.style.right = "130px";
       stepList.scrollTo(-1000, stepList.scrollTop);
       document.getElementById("gateway_4").style.direction = "ltr";
+      footer.style.direction = "ltr";
 
 
     }

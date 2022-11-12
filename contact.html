@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -38,14 +38,13 @@
     <header class='header'>
       <a class='gold-button' href='login.html' id="navBtn_sign_in">تسجيل الدخول</a>
       <nav class='navigation navigation-hide' id='navigation'>
-        <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_6" aria-current="page">حلول الدفع</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_2" aria-current="page">روابط الدفع</a></div>
-        <div class='navigation-item'><a href="javascript:;" id="navItem_1" aria-current="page">خدماتنا</a></div>
-
+          <div class='navigation-item'><a href="javascript:;" id="navBtn_translate">English</a></div>
+          <div class='navigation-item'><a href="index.html#section-6" id="navItem_6" aria-current="page">حلول الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-5" id="navItem_5" aria-current="page">ماذا يميزنا</a></div>
+          <div class='navigation-item'><a href="index.html#section-4" id="navItem_4" aria-current="page">ربط بوابة الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-3" id="navItem_3" aria-current="page">إدارة الفواتير</a></div>
+          <div class='navigation-item'><a href="index.html#section-2" id="navItem_2" aria-current="page">روابط الدفع</a></div>
+          <div class='navigation-item'><a href="index.html#section-1" id="navItem_1" aria-current="page">خدماتنا</a></div>
       </nav>
       <img src='images/menu.png' class='dropdown' alt='Dropdown' id='dropdown' onclick='toggleNavbar()'/>
       <a href="index.html" class="logo-link"><img class='logo' src='images/clickpay.svg' alt='Logo'/></a>
@@ -67,7 +66,7 @@
         </div>
       </div>
       <div class="form-container">
-        <form class="register-form" id="register-form">
+        <form class="register-form">
           <label id="name" for="name">الاسم</label>
           <input type="text" name="name" />
           <label id="emailaddress" for="email">البريد الإلكتروني</label>
@@ -90,25 +89,24 @@
     <footer class='footer'>
       <div class='footer-overlay'></div>
       <img class='footer-logo' src='images/logo-alternate.png' alt='Logo'/>
-      <div class="footer-links">
+      <div class="footer-links" style=" direction: rtl; ">
+          <div class="footer-link">
+              <a href="about.html" id="footer_3">من نحن</a>
+            </div>
+            <div class="footer-link">
+              <a href="partners.html" id="footer_2">شركاؤنا</a>
+            </div>
+            <div class="footer-link">
+              <a href="faq.html" id="footer_5">الاسئلة الشائعة</a>
+            </div>
           <div class="footer-link">
             <a href="terms.html" id="footer_1">الشروط والأحكام</a>
           </div>
           <div class="footer-link">
               <a href="privacy.html" id="privacy">الخصوصية</a>
             </div>
-          <div class="footer-link">
-            <a href="#" id="footer_2">شركاؤنا</a>
-          </div>
-          <div class="footer-link">
-            <a href="about.html" id="footer_3">من نحن</a>
-          </div>
-          <div class="footer-link">
-              <a href="faq.html" id="footer_5">الاسئلة الشائعة</a>
-            </div>
-
             <div class="footer-link">
-              <a href="#" id="dalel">دليل المستخدم التقني</a>
+              <a href="docs.html" id="dalel">دليل المستخدم التقني</a>
             </div>
 
           <div class="footer-link">
@@ -122,15 +120,14 @@
           <a href='#'><i class="fab fa-youtube"></i></a>
           <a href='#'><i class="fab fa-twitter"></i></a>
           <a href='#'><i class="fab fa-facebook-f"></i></a>
+          <a href="tel:+0112185054"><i class="fa-sharp fa-solid fa-phone"></i></a>
+
       </div>
-      <p class='contact'>0112185054</p>
       <div class='credits'>
           <img src='images/alinma.png' alt='Alinma Bank'/>
           <img src='images/saudi.png' alt='Saudi Financial Technology'/>
       </div>
-  </footer> 
-  
-  <script
+  </footer>    <script
       type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
     ></script>
@@ -139,7 +136,6 @@
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript">
