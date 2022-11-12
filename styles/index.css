@@ -9,6 +9,14 @@
   margin-top: 0 !important;
   padding-bottom: 80px !important;
 }
+
+.section1 {
+  position: relative !important;
+  padding-top: 150px !important;
+  /* padding-bottom: 50px !important; */
+  margin-top: -140px !important;
+}
+
 #section-2 {
   z-index: 90;
   

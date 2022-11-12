@@ -184,6 +184,8 @@ $(document).ready(function () {
       hero.style.direction = "rtl";
       herotext.style.textAlign = "left";
       heroimg.style.transform = "rotate(180deg)";
+      heroimg.style.dataAos = "right";
+      heroimg.style.transitionProperty = "none";
       firstSection.style.direction = "rtl";
       servicesText.style.textAlign = "left";
       processSection.style.direction = "rtl";
