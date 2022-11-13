@@ -10,6 +10,18 @@ html {
 body {
   margin: 0px;
 }
+
+
+.ltr {
+  text-align: left;
+  direction: ltr;
+}
+
+.rtl {
+  text-align: right;
+  direction: rtl;
+}
+
 a {
   text-decoration: none;
   color: #000000;
